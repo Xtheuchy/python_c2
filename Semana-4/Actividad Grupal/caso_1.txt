@@ -1,0 +1,25 @@
+1.TypeError
+¿Por qué?  Este error puede ocurrir si se intentan realizar operaciones entre tipos incompatibles,
+ como sumar un número y una cadena. Pero en caso del Codigo presentado este error no ocurriria hasta que 
+ el numero se ingrese directamente, pero como el numero se pide mediante consola no ocurriria el error, en
+ caso de que esto ocurriera lo evitamos usando (except TypeError).
+
+2.IndexError
+¿Por qué?   Este error no se produciría en el código presentado, ya que no se están utilizando 
+estructuras de datos indexadas como listas o tuplas.
+
+3.ValueError
+¿Por qué?   Este error ocurre al momento de ingresar un texto en lugar de un numero, lo cual causa el error
+y lo evitamos usando (except ValueError).
+
+4.KeyError
+¿Por qué?   Este error no se produciría en el codigo presentado, ya que no estamos usando un diccionario.
+
+5.ZeroDivisionError
+¿Por qué?   Este error se produce al momento de dividir un numero entre cero, lo cual no se permite y causaria el error, 
+lo evitamos usando (except ZeroDivisionError).
+
+6.FileNotFoundError
+¿Por qué?   En el codigo presentado no se esta usando archivos externos, por lo cual este error no ocurriria.
+
+7.Simplemente no sucederían errores.
