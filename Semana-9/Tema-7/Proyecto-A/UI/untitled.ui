@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbTitulo">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Console</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>OPERACIONES BÁSICAS:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>401</width>
+      <height>333</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Console</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="flContenedor">
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbSegundo">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Segundo valor :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txtB">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lbResultado">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Resultado     : </string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="txtR">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QRadioButton" name="rbSuma">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Suma</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QRadioButton" name="rbResta">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Resta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QRadioButton" name="rbMultiplica">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Multiplicación</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QRadioButton" name="rbDivide">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>División</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QPushButton" name="btnProcesar">
+       <property name="text">
+        <string>Procesar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbPrimer">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Primer Valor  :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txtA">
+       <property name="font">
+        <font>
+         <family>Lucida Console</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>492</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
