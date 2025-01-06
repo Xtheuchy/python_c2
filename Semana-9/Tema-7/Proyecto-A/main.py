@@ -1,7 +1,7 @@
 import sys #Importar el módulo 'sys' para que nos proporcione acceso a funciones y variables del interprete de Python
 from PyQt5 import uic #Importar el módulo 'uic' de PyQt5 permitiendo cargar archivos .ui (diseñados en Qt Designer)
  
-from PyQt5.QtWidgets import QMainWindow,QApplication,QMessageBox
+from PyQt5.QtWidgets import QMainWindow,QApplication
 # Importa 'QMainWindow' que una clase base para el formulario principal en PyQt5
 # Importa 'QApplication' gestiona la aplicación y los eventos de los controles
  
