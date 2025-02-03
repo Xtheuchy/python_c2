@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>581</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> Sistema de Gestión de Biblioteca </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>681</width>
+      <height>461</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGesti_n">
+    <property name="title">
+     <string>Gestión</string>
+    </property>
+    <addaction name="actionGestion_de_Libros"/>
+    <addaction name="actionGestion_de_Usuarios"/>
+    <addaction name="actionPrestamos"/>
+    <addaction name="actionDevoluciones"/>
+   </widget>
+   <addaction name="menuGesti_n"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGestion_de_Libros">
+   <property name="text">
+    <string>Gestión de Libros </string>
+   </property>
+  </action>
+  <action name="actionGestion_de_Usuarios">
+   <property name="text">
+    <string>Gestión de Usuarios </string>
+   </property>
+  </action>
+  <action name="actionPrestamos">
+   <property name="text">
+    <string>Préstamos </string>
+   </property>
+  </action>
+  <action name="actionDevoluciones">
+   <property name="text">
+    <string>Devoluciones </string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

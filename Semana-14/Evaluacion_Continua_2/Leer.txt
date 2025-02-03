@@ -1,0 +1,1 @@
+Las interfaces se encuentran en la carpeta "view" , el usuario es "admin" y la contraseña "admin123"
