@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana Prinicipal</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnSalir">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>500</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegistro">
+    <property name="title">
+     <string>Registro</string>
+    </property>
+    <addaction name="actionClientes"/>
+    <addaction name="actionEmpleados"/>
+    <addaction name="actionProductos"/>
+    <addaction name="actionProveedor"/>
+   </widget>
+   <widget class="QMenu" name="menuComprobantes">
+    <property name="title">
+     <string>Comprobantes</string>
+    </property>
+    <addaction name="actionVista_Previa"/>
+   </widget>
+   <addaction name="menuRegistro"/>
+   <addaction name="menuComprobantes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionClientes">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/icon_client.png</normaloff>../Icons/icon_client.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="actionEmpleados">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/icon_employee.png</normaloff>../Icons/icon_employee.png</iconset>
+   </property>
+   <property name="text">
+    <string>Empleados</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+E</string>
+   </property>
+  </action>
+  <action name="actionProductos">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/icon_product.png</normaloff>../Icons/icon_product.png</iconset>
+   </property>
+   <property name="text">
+    <string>Productos</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+P</string>
+   </property>
+  </action>
+  <action name="actionProveedor">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/icon_supplier.png</normaloff>../Icons/icon_supplier.png</iconset>
+   </property>
+   <property name="text">
+    <string>Proveedor</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Q</string>
+   </property>
+  </action>
+  <action name="actionVista_Previa">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Icons/icon_buscar.png</normaloff>../Icons/icon_buscar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vista Previa</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+V</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

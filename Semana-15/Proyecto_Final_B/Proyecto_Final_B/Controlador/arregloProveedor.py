@@ -47,8 +47,8 @@ class ArregloProveedor:
         archivo = open("Modelo/Proveedor.txt","w+",encoding="utf-8")     # Abre el archivo "Clientes.txt" en modo escritura
         for i in range(self.tamañoArregloProveedor()):                    # Itera sobre cada cliente en la lista 
             archivo.write(str(self.devolverProveedor(i).getDniProveedor()) + ","    # Escribe los datos del cliente en el archivo "Clientes.txt", separado por comas 
-                + str(self.devolverCliente(i).getRazSoc()) + ","          
-                + str(self.devolverCliente(i).getTelefono()) + ","  
-                + str(self.devolverCliente(i).getDireccion()) + ","      
-                + str(self.devolverCliente(i).getCategoria()) + "\n")
+                + str(self.devolverProveedor(i).getRazSoc()) + ","          
+                + str(self.devolverProveedor(i).getTelefono()) + ","  
+                + str(self.devolverProveedor(i).getDireccion()) + ","      
+                + str(self.devolverProveedor(i).getCategoria()) + "\n")
         archivo.close()                                                         # Cierra el archivo "Clientes.txt"
